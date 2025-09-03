@@ -115,10 +115,10 @@ const Index = () => {
         return <div className="space-y-6">
             <div className="text-center space-y-4">
               <h1 className="text-3xl md:text-4xl font-bold text-gradient">
-                Cognitive Tests
+                Free Brain Training Tests - Cognitive Assessment & Memory Games
               </h1>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Challenge your mind with our comprehensive suite of brain training tests
+                <strong>Challenge your mind</strong> with our comprehensive suite of <strong>brain training tests</strong>, <strong>memory games</strong>, and <strong>cognitive assessments</strong>. Test your <strong>reaction time</strong>, <strong>visual memory</strong>, <strong>attention span</strong>, and more.
               </p>
               <div className="flex justify-center">
                 <PWAInstallButton />
@@ -155,10 +155,10 @@ const Index = () => {
             <div className="text-center space-y-6">
               <div className="space-y-4">
                 <h1 className="text-4xl md:text-6xl font-bold text-gradient">
-                  Train Your Brain
+                  NeuroDash: Free Brain Training & Cognitive Assessment Platform
                 </h1>
                 <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-                  Challenge your mind with cognitive tests, track your progress, and unlock your brain's potential
+                  <strong>Test your cognitive abilities</strong> with <strong>15+ free brain training games</strong>. Measure <strong>reaction time</strong>, <strong>memory</strong>, <strong>attention</strong>, and more. <strong>Compare scores</strong> with others and <strong>track your progress</strong>.
                 </p>
               </div>
               
@@ -184,10 +184,10 @@ const Index = () => {
             <div className="max-w-4xl mx-auto">
               <div className="text-center space-y-6 mb-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-gradient">
-                  Choose Your Plan
+                  Brain Training Plans - Free & Premium Cognitive Tests
                 </h2>
                 <p className="text-xl text-muted-foreground">
-                  Unlock advanced cognitive training and premium features
+                  <strong>Unlock advanced cognitive training</strong> and <strong>premium brain games</strong> with detailed <strong>performance analytics</strong>
                 </p>
               </div>
               
@@ -197,7 +197,7 @@ const Index = () => {
                   <div className="absolute inset-0 bg-gradient-to-br from-zinc-900/50 to-black opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="relative z-10">
                     <div className="flex items-center justify-between mb-6">
-                      <h3 className="text-2xl font-bold text-white">Free</h3>
+                      <h3 className="text-2xl font-bold text-white">Free Brain Training</h3>
                       <div className="w-12 h-12 rounded-full bg-gradient-to-r from-zinc-700 to-zinc-600 flex items-center justify-center">
                         <span className="text-white font-bold">F</span>
                       </div>
@@ -213,25 +213,25 @@ const Index = () => {
                         <div className="w-5 h-5 rounded-full bg-emerald-500/20 flex items-center justify-center">
                           <span className="text-emerald-400 text-xs">✓</span>
                         </div>
-                        <span className="text-zinc-300 group-hover/item:text-white transition-colors">8 Core cognitive tests</span>
+                        <span className="text-zinc-300 group-hover/item:text-white transition-colors"><strong>8 Core cognitive tests</strong> including reaction time & memory games</span>
                       </div>
                       <div className="flex items-center gap-3 group/item">
                         <div className="w-5 h-5 rounded-full bg-emerald-500/20 flex items-center justify-center">
                           <span className="text-emerald-400 text-xs">✓</span>
                         </div>
-                        <span className="text-zinc-300 group-hover/item:text-white transition-colors">Basic progress tracking</span>
+                        <span className="text-zinc-300 group-hover/item:text-white transition-colors"><strong>Basic progress tracking</strong> & performance metrics</span>
                       </div>
                       <div className="flex items-center gap-3 group/item">
                         <div className="w-5 h-5 rounded-full bg-emerald-500/20 flex items-center justify-center">
                           <span className="text-emerald-400 text-xs">✓</span>
                         </div>
-                        <span className="text-zinc-300 group-hover/item:text-white transition-colors">Global leaderboards</span>
+                        <span className="text-zinc-300 group-hover/item:text-white transition-colors"><strong>Global leaderboards</strong> & score comparison</span>
                       </div>
                       <div className="flex items-center gap-3 group/item">
                         <div className="w-5 h-5 rounded-full bg-emerald-500/20 flex items-center justify-center">
                           <span className="text-emerald-400 text-xs">✓</span>
                         </div>
-                        <span className="text-zinc-300 group-hover/item:text-white transition-colors">Multiplayer challenges</span>
+                        <span className="text-zinc-300 group-hover/item:text-white transition-colors"><strong>Multiplayer brain challenges</strong> & real-time competition</span>
                       </div>
                     </div>
                     
@@ -262,7 +262,7 @@ const Index = () => {
                   <div className="relative z-10">
                     <div className="flex items-center justify-center gap-3 mb-6">
                       <Crown className="w-8 h-8 text-yellow-400 animate-pulse" />
-                      <h3 className="text-2xl font-bold text-white">Premium</h3>
+                      <h3 className="text-2xl font-bold text-white">Premium Brain Training</h3>
                     </div>
                     
                     <div className="text-center mb-6">
@@ -277,25 +277,25 @@ const Index = () => {
                         <div className="w-5 h-5 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center">
                           <span className="text-white text-xs">✓</span>
                         </div>
-                        <span className="text-zinc-300 group-hover/item:text-white transition-colors">7 Unique premium tests</span>
+                        <span className="text-zinc-300 group-hover/item:text-white transition-colors"><strong>7 Unique premium cognitive tests</strong> & advanced brain games</span>
                       </div>
                       <div className="flex items-center gap-3 group/item">
                         <div className="w-5 h-5 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center">
                           <span className="text-white text-xs">✓</span>
                         </div>
-                        <span className="text-zinc-300 group-hover/item:text-white transition-colors">Advanced analytics & insights</span>
+                        <span className="text-zinc-300 group-hover/item:text-white transition-colors"><strong>Advanced analytics & cognitive insights</strong></span>
                       </div>
                       <div className="flex items-center gap-3 group/item">
                         <div className="w-5 h-5 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center">
                           <span className="text-white text-xs">✓</span>
                         </div>
-                        <span className="text-zinc-300 group-hover/item:text-white transition-colors">Personalized training programs</span>
+                        <span className="text-zinc-300 group-hover/item:text-white transition-colors"><strong>Personalized brain training programs</strong></span>
                       </div>
                       <div className="flex items-center gap-3 group/item">
                         <div className="w-5 h-5 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center">
                           <span className="text-white text-xs">✓</span>
                         </div>
-                        <span className="text-zinc-300 group-hover/item:text-white transition-colors">Detailed performance reports</span>
+                        <span className="text-zinc-300 group-hover/item:text-white transition-colors"><strong>Detailed cognitive performance reports</strong></span>
                       </div>
                       <div className="flex items-center gap-3 group/item">
                         <div className="w-5 h-5 rounded-full bg-gradient-to-r from-blue-500 to-purple-500 flex items-center justify-center">
@@ -335,10 +335,10 @@ const Index = () => {
                       </div>
                       <h2 className="text-3xl lg:text-5xl font-bold mb-6 leading-tight">
                         NeuroDash<br />
-                        <span className="text-cyan-300">Blog</span>
+                        <span className="text-cyan-300">Brain Training Blog</span>
                       </h2>
                       <p className="text-lg lg:text-xl mb-6 text-white/90 leading-relaxed">
-                        Dive deep into the science of cognitive enhancement, habit formation, and peak performance with our expert insights and research-backed articles.
+                        Dive deep into the <strong>science of cognitive enhancement</strong>, <strong>memory improvement techniques</strong>, and <strong>brain fitness</strong> with our expert insights and <strong>research-backed articles</strong> on <strong>neuroplasticity</strong> and <strong>mental performance</strong>.
                       </p>
                       <ul className="space-y-3 mb-8 text-white/80">
                         
@@ -352,7 +352,7 @@ const Index = () => {
                     <div className="flex-1 flex justify-center mt-8 lg:mt-0">
                       <div className="relative">
                         <div className="absolute -inset-4 bg-white/20 rounded-2xl blur-xl"></div>
-                        <img src="/lovable-uploads/92547e9c-22c3-4aab-ae1f-46223bd5de1b.png" alt="NeuroDash Blog hero image" loading="lazy" decoding="async" className="relative max-w-sm w-full h-auto rounded-xl shadow-2xl" />
+                        <img src="/lovable-uploads/92547e9c-22c3-4aab-ae1f-46223bd5de1b.png" alt="NeuroDash brain training platform featuring cognitive tests, memory games, and neuroplasticity research for mental fitness improvement" loading="lazy" decoding="async" className="relative max-w-sm w-full h-auto rounded-xl shadow-2xl" />
                       </div>
                     </div>
                   </div>
@@ -362,8 +362,8 @@ const Index = () => {
               {/* Call to Action */}
               <div className="text-center py-16 border-t border-border">
                 <div className="backdrop-blur-sm rounded-lg p-8 bg-zinc-950">
-                  <h2 className="text-3xl font-bold text-foreground mb-4">Ready to test your brain?</h2>
-                  <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">Looking to improve concentration and memory? Try 10+ science-backed brain tests that make mental training easy and fun.</p>
+                  <h2 className="text-3xl font-bold text-foreground mb-4">Ready to Test Your Cognitive Abilities?</h2>
+                  <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">Looking to <strong>improve concentration and memory</strong>? Try <strong>15+ science-backed brain tests</strong> that make <strong>mental training</strong> easy and fun. Test your <strong>IQ</strong>, <strong>working memory</strong>, and <strong>cognitive flexibility</strong>.</p>
                   <button className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-3 rounded-lg font-semibold transition-colors" onClick={() => setCurrentView("tests")}>
                     Get Started Today
                   </button>
@@ -389,9 +389,9 @@ const Index = () => {
                 <div className="w-12 h-12 mx-auto rounded-lg bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20 flex items-center justify-center">
                   <BarChart3 className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="text-lg font-semibold text-foreground">Track Progress</h3>
+                <h3 className="text-lg font-semibold text-foreground">Track Cognitive Progress</h3>
                 <p className="text-sm text-muted-foreground">
-                  Monitor your cognitive improvements with detailed analytics and performance graphs
+                  <strong>Monitor your cognitive improvements</strong> with detailed analytics and <strong>performance graphs</strong>. Track <strong>reaction time</strong>, <strong>memory scores</strong>, and <strong>attention metrics</strong>.
                 </p>
               </div>
 
@@ -399,9 +399,9 @@ const Index = () => {
                 <div className="w-12 h-12 mx-auto rounded-lg bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20 flex items-center justify-center">
                   <User className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="text-lg font-semibold text-foreground">Global Competition</h3>
+                <h3 className="text-lg font-semibold text-foreground">Global Brain Training Competition</h3>
                 <p className="text-sm text-muted-foreground">
-                  Compete with users worldwide and climb the leaderboards in various cognitive challenges
+                  <strong>Compete with users worldwide</strong> and climb the <strong>cognitive leaderboards</strong> in various <strong>brain training challenges</strong> and <strong>memory competitions</strong>.
                 </p>
               </div>
 
@@ -409,9 +409,9 @@ const Index = () => {
                 <div className="w-12 h-12 mx-auto rounded-lg bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20 flex items-center justify-center">
                   <Home className="w-6 h-6 text-primary" />
                 </div>
-                <h3 className="text-lg font-semibold text-foreground">Unique Tests</h3>
+                <h3 className="text-lg font-semibold text-foreground">Unique Cognitive Tests</h3>
                 <p className="text-sm text-muted-foreground">
-                  Experience innovative cognitive tests you won't find anywhere else
+                  Experience <strong>innovative cognitive tests</strong> and <strong>brain games</strong> you won't find anywhere else. Test <strong>spatial reasoning</strong>, <strong>pattern recognition</strong>, and <strong>working memory</strong>.
                 </p>
               </div>
             </div>
