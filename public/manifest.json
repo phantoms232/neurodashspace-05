@@ -1,0 +1,27 @@
+{
+  "name": "NeuroDash - Cognitive Testing Platform",
+  "short_name": "NeuroDash",
+  "description": "Test and improve your cognitive abilities with science-based brain training exercises",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/lovable-uploads/92547e9c-22c3-4aab-ae1f-46223bd5de1b.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/lovable-uploads/92547e9c-22c3-4aab-ae1f-46223bd5de1b.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "categories": ["health", "education", "productivity"],
+  "lang": "en",
+  "dir": "ltr"
+}

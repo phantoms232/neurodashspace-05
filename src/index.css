@@ -1,0 +1,223 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* NeuroDash Design System - Brain Training & Cognitive Testing Platform */
+
+@layer base {
+  :root {
+    /* Core Neural Network Theme - Improved Contrast */
+    --background: 220 20% 8%;
+    --foreground: 220 10% 95%;
+
+    --card: 220 15% 12%;
+    --card-foreground: 220 10% 95%;
+
+    --popover: 220 15% 12%;
+    --popover-foreground: 220 10% 95%;
+
+    /* Primary: Electric Blue */
+    --primary: 215 100% 60%;
+    --primary-foreground: 220 10% 95%;
+    --primary-glow: 215 100% 70%;
+
+    /* Secondary: Deep Neural Purple */
+    --secondary: 270 45% 15%;
+    --secondary-foreground: 220 10% 95%;
+
+    /* Muted: Soft Gray */
+    --muted: 220 20% 10%;
+    --muted-foreground: 220 10% 65%;
+
+    /* Accent: Electric Purple */
+    --accent: 270 100% 65%;
+    --accent-foreground: 220 27% 4%;
+
+    /* Success: Neural Green */
+    --success: 142 76% 36%;
+    --success-foreground: 220 10% 95%;
+
+    /* Warning: Brain Gold */
+    --warning: 43 96% 56%;
+    --warning-foreground: 220 27% 4%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 220 10% 95%;
+
+    --border: 220 20% 12%;
+    --input: 220 20% 12%;
+    --ring: 215 100% 60%;
+
+    --radius: 0.75rem;
+
+    /* Neural Network Gradients */
+    --gradient-neural: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
+    --gradient-brain: linear-gradient(180deg, hsl(var(--primary) / 0.1), hsl(var(--accent) / 0.1));
+    --gradient-glow: radial-gradient(circle, hsl(var(--primary-glow) / 0.3), transparent 70%);
+    --gradient-card: linear-gradient(135deg, hsl(var(--card)), hsl(var(--muted)));
+
+    /* Neural Shadows */
+    --shadow-neural: 0 10px 30px -10px hsl(var(--primary) / 0.3);
+    --shadow-glow: 0 0 40px hsl(var(--primary-glow) / 0.4);
+    --shadow-brain: 0 20px 50px -15px hsl(var(--accent) / 0.2);
+
+    /* Smooth Neural Transitions */
+    --transition-neural: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-pulse: all 0.6s cubic-bezier(0.4, 0, 0.6, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html, body {
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    background: var(--gradient-brain);
+  }
+}
+
+@layer components {
+  /* Neural Button Variants */
+  .btn-neural {
+    @apply bg-gradient-to-r from-primary to-accent text-primary-foreground;
+    @apply px-6 py-3 rounded-lg font-semibold;
+    @apply hover:shadow-[var(--shadow-glow)] transition-[var(--transition-neural)];
+    @apply hover:scale-105 active:scale-95;
+  }
+
+  .btn-brain {
+    @apply bg-card border border-border text-foreground;
+    @apply px-6 py-3 rounded-lg font-medium;
+    @apply hover:border-primary hover:shadow-[var(--shadow-neural)];
+    @apply transition-[var(--transition-neural)];
+  }
+
+  /* Neural Card Styles */
+  .card-neural {
+    @apply bg-gradient-to-br from-card to-muted;
+    @apply border border-border rounded-xl p-6;
+    @apply shadow-lg hover:shadow-[var(--shadow-neural)];
+    @apply transition-[var(--transition-neural)];
+  }
+
+  .card-glow {
+    @apply bg-card border border-primary/20 rounded-xl p-6;
+    @apply shadow-[var(--shadow-glow)];
+    @apply hover:border-primary/40 transition-[var(--transition-neural)];
+  }
+
+  /* Neural Animations */
+  .pulse-neural {
+    animation: pulse-neural 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .float-neural {
+    animation: float-neural 3s ease-in-out infinite;
+  }
+
+  /* Test Area Styles */
+  .test-area {
+    @apply min-h-[400px] bg-card border border-border rounded-xl;
+    @apply flex items-center justify-center relative overflow-hidden;
+    background: var(--gradient-card);
+  }
+
+  .test-area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--gradient-glow);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  .test-area:hover::before {
+    opacity: 1;
+  }
+}
+
+@layer utilities {
+  /* Neural Network Keyframes */
+  @keyframes pulse-neural {
+    0%, 100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 0.8;
+      transform: scale(1.05);
+    }
+  }
+
+  @keyframes float-neural {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+
+  @keyframes glow-pulse {
+    0%, 100% {
+      box-shadow: 0 0 20px hsl(var(--primary) / 0.3);
+    }
+    50% {
+      box-shadow: 0 0 40px hsl(var(--primary) / 0.6);
+    }
+  }
+
+  /* Gradient Text */
+  .text-gradient {
+    background: var(--gradient-neural);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Neural Grid Pattern */
+  .neural-grid {
+    background-image: 
+      radial-gradient(circle at 1px 1px, hsl(var(--primary) / 0.15) 1px, transparent 0);
+    background-size: 20px 20px;
+  }
+
+  /* Custom keyframes for aim trainer */
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+  }
+}

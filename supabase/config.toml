@@ -1,0 +1,4 @@
+project_id = "vytzegqklhijxbqbmbop"
+
+[functions.issue-discount-code]
+verify_jwt = false

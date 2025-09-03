@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/lovable-uploads/92547e9c-22c3-4aab-ae1f-46223bd5de1b.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeuroDash - Free Brain Training & Cognitive Assessment Tests</title>
+    <meta name="description" content="Test your cognitive abilities with 15+ free brain training games. Measure reaction time, memory, attention, and more. Compare scores with others and track your progress." />
+    <meta name="author" content="NeuroDash" />
+    <meta name="keywords" content="brain training, cognitive test, memory test, reaction time, attention test, IQ test, mental fitness, cognitive assessment" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://neurodash.space" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://neurodash.space" />
+    <meta property="og:title" content="NeuroDash - Free Brain Training & Cognitive Assessment Tests" />
+    <meta property="og:description" content="Test your cognitive abilities with 15+ free brain training games. Measure reaction time, memory, attention, and more." />
+    <meta property="og:image" content="https://neurodash.space/lovable-uploads/92547e9c-22c3-4aab-ae1f-46223bd5de1b.png" />
+    <meta property="og:site_name" content="NeuroDash" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://neurodash.space" />
+    <meta name="twitter:title" content="NeuroDash - Free Brain Training & Cognitive Assessment Tests" />
+    <meta name="twitter:description" content="Test your cognitive abilities with 15+ free brain training games. Measure reaction time, memory, attention, and more." />
+    <meta name="twitter:image" content="https://neurodash.space/lovable-uploads/92547e9c-22c3-4aab-ae1f-46223bd5de1b.png" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "NeuroDash",
+      "url": "https://neurodash.space",
+      "description": "Free brain training and cognitive assessment platform with 15+ scientifically-based tests",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "creator": {
+        "@type": "Organization",
+        "name": "NeuroDash"
+      },
+      "featureList": [
+        "Reaction Time Test",
+        "Memory Tests", 
+        "Attention Training",
+        "Visual Memory Assessment",
+        "Number Memory Test",
+        "Sequence Memory Test",
+        "Verbal Memory Test",
+        "Audio Memory Test",
+        "Aim Trainer",
+        "Typing Speed Test",
+        "Logic Sprint",
+        "Pattern Recognition",
+        "Emotion Recognition",
+        "Multi-tasking Test",
+        "Distraction Control Test"
+      ]
+    }
+    </script>
+    
+    <!-- Google AdSense Verification -->
+    <meta name="google-adsense-account" content="ca-pub-6486386641041930">
+    
+    <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6486386641041930"
+            crossorigin="anonymous"></script>
+    
+    
+    <!-- PWA Configuration -->
+    <link rel="manifest" href="/manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="NeuroDash">
+    <link rel="apple-touch-icon" href="/lovable-uploads/92547e9c-22c3-4aab-ae1f-46223bd5de1b.png">
+    
+    <!-- Mobile browser theme color -->
+    <meta name="theme-color" content="#0a0a0a">
+    <meta name="msapplication-navbutton-color" content="#0a0a0a">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <script>
+      try {
+        if ('scrollRestoration' in history) {
+          history.scrollRestoration = 'manual';
+        }
+        window.addEventListener('pageshow', (e) => {
+          if (e.persisted) {
+            requestAnimationFrame(() => window.scrollTo(0, 0));
+          }
+        });
+        window.addEventListener('load', () => {
+          requestAnimationFrame(() => window.scrollTo(0, 0));
+        });
+      } catch {}
+    </script>
+  </head>
+  
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    
+    <!-- Service Worker Registration -->
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((registration) => {
+              console.log('SW registered: ', registration);
+            })
+            .catch((registrationError) => {
+              console.log('SW registration failed: ', registrationError);
+            });
+        });
+      }
+    </script>
+  </body>
+</html>
