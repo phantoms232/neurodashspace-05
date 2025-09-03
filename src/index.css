@@ -97,6 +97,21 @@
   body {
     @apply bg-background text-foreground;
     background: var(--gradient-brain);
+    /* Fallback colors for when CSS variables don't load */
+    background-color: #1a1a2e !important;
+    color: #f1f5f9 !important;
+    min-height: 100vh;
+  }
+  
+  /* Fallback styling for search engines and when CSS doesn't load properly */
+  html {
+    background-color: #1a1a2e !important;
+  }
+  
+  #root {
+    background-color: #1a1a2e !important;
+    color: #f1f5f9 !important;
+    min-height: 100vh;
   }
 }
 
